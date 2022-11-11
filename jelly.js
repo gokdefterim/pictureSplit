@@ -47,71 +47,45 @@ document.getElementById('divRightContainer').appendChild(divRight);
 const divRightText = document.createElement('div');
 divRightText.id = 'divRightText';
 divRightText.innerHTML = '<h1>Bölünmüş Hali</h1>';
-document.getElementById('divRightContainer').appendChild(divRightText);1
+
+const divStyles = 'height: 100px; width: 100px; margin: 0 100px 100px 0; background-image: url("jelly.png")';
 
 const div1 = document.createElement('div');
-div1.style.height = '100px';
-div1.style.width = '100px';
-div1.style.margin = '0 100px 100px 0';
-div1.style.backgroundImage = 'url("jelly.png")';
+div1.style.cssText = divStyles;
 
 const div2 = document.createElement('div');
-div2.style.height = '100px';
-div2.style.width = '100px';
-div2.style.margin = '0 100px 100px 0';
-div2.style.backgroundImage = 'url("jelly.png")';
+div2.style.cssText = divStyles;
 div2.style.backgroundPositionX = '200px';
 
 const div3= document.createElement('div');
-div3.style.height = '100px';
-div3.style.width = '100px';
-div3.style.margin = '0 100px 100px 0';
-div3.style.backgroundImage = 'url("jelly.png")';
+div3.style.cssText = divStyles;
 div3.style.backgroundPositionX = '100px';
 
 const div4= document.createElement('div');
-div4.style.height = '100px';
-div4.style.width = '100px';
-div4.style.margin = '0 100px 100px 0';
-div4.style.backgroundImage = 'url("jelly.png")';
+div4.style.cssText = divStyles;
 div4.style.backgroundPositionY = '200px';
 
 const div5= document.createElement('div');
-div5.style.height = '100px';
-div5.style.width = '100px';
-div5.style.margin = '0 100px 100px 0';
-div5.style.backgroundImage = 'url("jelly.png")';
+div5.style.cssText = divStyles;
 div5.style.backgroundPositionX = '200px';
 div5.style.backgroundPositionY = '200px';
 
 const div6= document.createElement('div');
-div6.style.height = '100px';
-div6.style.width = '100px';
-div6.style.margin = '0 100px 100px 0';
-div6.style.backgroundImage = 'url("jelly.png")';
+div6.style.cssText = divStyles;
 div6.style.backgroundPositionX = '100px';
 div6.style.backgroundPositionY = '200px';
 
 const div7= document.createElement('div');
-div7.style.height = '100px';
-div7.style.width = '100px';
-div7.style.margin = '0 100px 100px 0';
-div7.style.backgroundImage = 'url("jelly.png")';
+div7.style.cssText = divStyles;
 div7.style.backgroundPositionY = '100px';
 
 const div8= document.createElement('div');
-div8.style.height = '100px';
-div8.style.width = '100px';
-div8.style.margin = '0 100px 100px 0';
-div8.style.backgroundImage = 'url("jelly.png")';
+div8.style.cssText = divStyles;
 div8.style.backgroundPositionX = '200px';
 div8.style.backgroundPositionY = '100px';
 
 const div9= document.createElement('div');
-div9.style.height = '100px';
-div9.style.width = '100px';
-div9.style.margin = '0 100px 100px 0';
-div9.style.backgroundImage = 'url("jelly.png")';
+div9.style.cssText = divStyles;
 div9.style.backgroundPositionX = '100px';
 div9.style.backgroundPositionY = '100px';
 
