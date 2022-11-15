@@ -77,13 +77,3 @@ divRightText.id = 'divRightText';
 divRightText.innerHTML = '<h1>Bölünmüş Hali</h1>';
 divRightText.style.marginRight = '100px';
 document.getElementById('divRightContainer').appendChild(divRightText);
-
-document.getElementById('divRight').appendChild(div1);
-document.getElementById('divRight').appendChild(div2);
-document.getElementById('divRight').appendChild(div3);
-document.getElementById('divRight').appendChild(div4);
-document.getElementById('divRight').appendChild(div5);
-document.getElementById('divRight').appendChild(div6);
-document.getElementById('divRight').appendChild(div7);
-document.getElementById('divRight').appendChild(div8);
-document.getElementById('divRight').appendChild(div9);
