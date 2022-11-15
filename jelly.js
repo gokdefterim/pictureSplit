@@ -41,7 +41,7 @@ divRightContainer.style.display = 'flex';
 divRightContainer.style.flexDirection = 'column';
 divRightContainer.style.alignItems = 'center';
 divRightContainer.style.height = '550px';
-divRightContainer.style.width = '4500px';
+divRightContainer.style.width = '450px';
 document.getElementById('divBig').appendChild(divRightContainer);
 
 const divRight = document.createElement('div');
