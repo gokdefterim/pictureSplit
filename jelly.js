@@ -24,7 +24,7 @@ divLeft.style.flexDirection = 'column';
 divLeft.style.alignItems = 'center';
 divLeft.style.height = '300px';
 divLeft.style.width = '300px';
-divLeft.innerHTML = '<img style="margin-bottom: 100px;" src="jelly.png"/>';
+divLeft.innerHTML = '<img style="margin-bottom: 100px; border-radius: 5px;" src="jelly.png"/>';
 document.getElementById('divBig').appendChild(divLeft);
 
 const divLeftText = document.createElement('div');
@@ -50,7 +50,7 @@ divRight.style.justifyContent = 'space-between';
 divRight.style.flexWrap = 'wrap';
 document.getElementById('divRightContainer').appendChild(divRight);
 
-const divStyles = 'height: 100px; width: 100px; margin: 0 100px 100px 0; background-image: url("jelly.png")';
+const divStyles = 'height: 100px; width: 100px; margin: 0 100px 100px 0; border-radius: 5px; background-image: url("jelly.png")';
 
 var x = 300;
 var y = 300;
