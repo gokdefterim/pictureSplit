@@ -7,6 +7,9 @@ style.innerHTML = `
         text-decoration: none;
         list-style-type: none;
     }
+    body{
+        background-color: #202C33;
+    }
     `;
 document.getElementsByTagName('head')[0].appendChild(style);
 
@@ -29,7 +32,7 @@ document.getElementById('divBig').appendChild(divLeft);
 
 const divLeftText = document.createElement('div');
 divLeftText.id = 'divLeftText';
-divLeftText.innerHTML = '<h1>Full Resim</h1>';
+divLeftText.innerHTML = '<h1 style="color: #FFFFFF">Full Resim</h1>';
 document.getElementById('divLeft').appendChild(divLeftText);
 
 const divRightContainer = document.createElement('div');
@@ -74,6 +77,6 @@ for (let i=1; i < 10; i++){
 
 const divRightText = document.createElement('div');
 divRightText.id = 'divRightText';
-divRightText.innerHTML = '<h1>Bölünmüş Hali</h1>';
+divRightText.innerHTML = '<h1 style="color: #FFFFFF">Bölünmüş Hali</h1>';
 divRightText.style.marginRight = '100px';
 document.getElementById('divRightContainer').appendChild(divRightText);
