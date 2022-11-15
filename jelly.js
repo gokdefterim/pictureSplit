@@ -40,20 +40,20 @@ divRightContainer.id = 'divRightContainer';
 divRightContainer.style.display = 'flex';
 divRightContainer.style.flexDirection = 'column';
 divRightContainer.style.alignItems = 'center';
-divRightContainer.style.height = '700px';
-divRightContainer.style.width = '600px';
+divRightContainer.style.height = '550px';
+divRightContainer.style.width = '4500px';
 document.getElementById('divBig').appendChild(divRightContainer);
 
 const divRight = document.createElement('div');
 divRight.id = 'divRight';
-divRight.style.height = '600px';
-divRight.style.width = '600px';
+divRight.style.height = '450px';
+divRight.style.width = '450px';
 divRight.style.display = 'flex';
 divRight.style.justifyContent = 'space-between';
 divRight.style.flexWrap = 'wrap';
 document.getElementById('divRightContainer').appendChild(divRight);
 
-const divStyles = 'height: 100px; width: 100px; margin: 0 100px 100px 0; border-radius: 5px; background-image: url("jelly.png")';
+const divStyles = 'height: 100px; width: 100px; margin: 0 50px 50px 0; border-radius: 5px; background-image: url("jelly.png")';
 
 var x = 300;
 var y = 300;
@@ -78,5 +78,5 @@ for (let i=1; i < 10; i++){
 const divRightText = document.createElement('div');
 divRightText.id = 'divRightText';
 divRightText.innerHTML = '<h1 style="color: #FFFFFF">Bölünmüş Hali</h1>';
-divRightText.style.marginRight = '100px';
+divRightText.style.marginRight = '50px';
 document.getElementById('divRightContainer').appendChild(divRightText);
